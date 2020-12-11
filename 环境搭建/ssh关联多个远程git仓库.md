@@ -30,7 +30,9 @@ ssh-add ~/.ssh/id_rsa_gitee
 ssh-add ~/.ssh/id_rsa_github
 ```
 
-
+> 如果报错 **Could not open a connection to your authentication agent**
+>
+> 执行如下命令　**ssh-agent bash**
 
 3. 编辑config文件,如果不存在在~/.ssh 目录下新建编辑(没感觉有啥吊用)
 

@@ -148,7 +148,7 @@ PhaseOne,Schema2 : now run 3
 
 1. **备忘录模式定义**
 
-![img](https:////upload-images.jianshu.io/upload_images/2062729-f91102e9a2200808.png?imageMogr2/auto-orient/strip|imageView2/2/w/597/format/webp)
+![2062729-f91102e9a2200808](Memento.assets/2062729-f91102e9a2200808.webp)
 
 备忘录模式定义
 
@@ -170,7 +170,7 @@ PhaseOne,Schema2 : now run 3
 
 备忘录模式结构如图所示：
 
-![img](https:////upload-images.jianshu.io/upload_images/2062729-c3b7d93be7908d0d.png?imageMogr2/auto-orient/strip|imageView2/2/w/491/format/webp)
+![2062729-c3b7d93be7908d0d](Memento.assets/2062729-c3b7d93be7908d0d.webp)
 
 备忘录模式结构如图
 
@@ -286,7 +286,7 @@ public class Caretaker{
 
 此时程序的结构如图所示：
 
-![2062729-e9f25938f45c7a67](/Users/qishen/Documents/笔记文件/设计模式/ref/备忘录模式.assets/2062729-e9f25938f45c7a67.webp)
+![2062729-e9f25938f45c7a67](Memento.assets/2062729-e9f25938f45c7a67.webp)
 
 使用备忘录模式重写示例的结构示意图
 
@@ -561,13 +561,13 @@ PhaseOne,Schema2 : now run 3
 
 先看创建备忘录对象的阶段，调用顺序如图所示：
 
-![2062729-b518c65e45f59d46](/Users/qishen/Documents/笔记文件/设计模式/ref/备忘录模式.assets/2062729-b518c65e45f59d46.webp)
+![2062729-b518c65e45f59d46](Memento.assets/2062729-b518c65e45f59d46.webp)
 
 创建备忘录对象的调用顺序示意图
 
 再看看使用备忘录对象来恢复原发器对象的状态的阶段，调用顺序如图所示：
 
-![2062729-9cff2d59c00fcc69](/Users/qishen/Documents/笔记文件/设计模式/ref/备忘录模式.assets/2062729-9cff2d59c00fcc69.webp)
+![2062729-9cff2d59c00fcc69](Memento.assets/2062729-9cff2d59c00fcc69.webp)
 
 使用备忘录对象来恢复原发器对象的状态的调用顺序示意图
 

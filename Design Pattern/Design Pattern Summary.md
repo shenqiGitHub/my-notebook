@@ -18,7 +18,7 @@
 | *Creation Method* | 类的构造函数， *Factory Method* 的变种   |                                               |
 | 结构型            | *Adapter*                                | 对象的接口 *(* 可变 *API)*                    |
 | *Bridge*          | 对象实现 *(* 实现逻辑 *)*                |                                               |
-| *Composite*       | 对象的结构和组成                         |                                               |
+| *Composite*       | 对象的结构和组成                         | 树枝节点（根节点）与叶子节点的统一封装        |
 | *Decorator*       | 对象的职责 *(* 职责组合 *)*              |                                               |
 | *Façade*          | 子系统的接口 *(* 子系统的变化 *)*        |                                               |
 | *Flyweight*       | 对象的存储                               |                                               |
@@ -133,7 +133,7 @@
 - 命令模式（Command）
 - 访问者模式（Visitor）
 - 调停者模式（Mediator）
-- 备忘录模式（[Memento](ref/备忘录模式.md)）
+- 备忘录模式（[Memento](ref/Memento.md)）
 - 迭代器模式（Iterator）
 
 

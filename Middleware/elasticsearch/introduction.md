@@ -899,6 +899,18 @@ GET /heima/_search
 
 
 
+
+
+## 添加别名
+
+```
+PUT /索引名/_alias/别名
+```
+
+
+
+
+
 [回到顶部](https://www.cnblogs.com/coder-lzh/p/9299247.html#_labelTop)
 
 ## 结果过滤
@@ -963,7 +975,7 @@ GET /heima/_search
 我们也可以通过：
 
 - includes：来指定想要显示的字段
-- excludes：来指定不想要显示的字段
+- excludes：来指定不想要显示的字段ter
 
 二者都是可选的。
 

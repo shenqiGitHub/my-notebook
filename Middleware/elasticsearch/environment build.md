@@ -90,7 +90,7 @@ $ docker pull elasticsearch:6.8.0
 ```bash
 $ sysctl -w vm.max_map_count=262144
 $ sysctl -a|grep vm.max_map_count
-$ docker run --name elasticsearch -p 9200:9200 -p 9300:9300 -e "ES_JAVA_OPTS=-Xms256m -Xmx256m" -d elasticsearch:6.8.0
+$ docker run --name elasticsearch671 -p 9200:9200 -p 9300:9300 -e "ES_JAVA_OPTS=-Xms256m -Xmx256m" -d elasticsearch:6.8.1
 ```
 
 ### 1.3 进入容器，更改文件elasticsearch.ym，并安装ik分词器

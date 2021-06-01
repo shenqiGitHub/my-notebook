@@ -38,17 +38,19 @@ ssh-add ~/.ssh/id_rsa_github
 
 ```
 # gitee
-Host gitee  
-    HostName gitee.com  
-    PreferredAuthentications publickey  
+Host gitee.com
+    HostName gitee.com
+    Port 22
+    PreferredAuthentications publickey
     IdentityFile ~/.ssh/id_rsa_gitee
-    user git
+    User shenqiax@vip.qq.com
 # github
 Host github
-    HostName github.com  
-    PreferredAuthentications publickey  
-    IdentityFile ~/.ssh/id_rsa_github  
-    user git
+    HostName github.com
+    Port 443
+    IdentityFile ~/.ssh/id_rsa
+    PreferredAuthentications publickey
+    User shenqiGitHub
     
 # 配置文件参数
 # Host：对识别的模式，进行配置对应的的主机名和ssh文件
@@ -61,7 +63,7 @@ Host github
 5. 测试
 
 ```
-ssh -T git@gitee.com
+  ssh -T git@gitee.com
 ssh -T git@github.com
 ```
 
@@ -82,5 +84,17 @@ origin  https://gitee.com/xxx/xxxxx.git (push)
 ```
 git remote rm origin
 git remote add gitee git@gitee.com:xxxx/xxx.git
+```
+
+
+
+
+
+四、You may need to set git config user details for any project.
+
+```
+$ cd ~/home_project
+$ git config user.name "home_user"
+$ git config user.email "your_name@home_email.com" 
 ```
 

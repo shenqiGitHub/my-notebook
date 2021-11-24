@@ -34,3 +34,13 @@ classO .. classP : Link(Dashed)
 
 
 
+
+```mermaid
+graph LR
+a1(数据库)-->b1(按照关系结构)
+b1-->c1(k-v数据库) 
+b1-->c2(关系数据库)
+a1 --> b2(按照排列结构)
+b2 --> b3(行数据库)
+b2 --> b4(列数据库)
+```
